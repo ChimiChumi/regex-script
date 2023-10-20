@@ -1,6 +1,6 @@
 example 1: here is an example.
 This example is a tricky exampampamexampleexaapppleexampleEXamPLEEXAMPLExAmpleXexemplarexahexamplexample.
-Are there five, six, seven... maybe ten eXaMpleS there? Oh sh*t, it's one more now.
+Are there five, six, seven... maybe tEn, eLeVeN-TwElVe eXaMpleS there? Oh sh*t, it's one more now.
 example 2: Unreadable phone number: 5555551234. Also, another one: 4444445678
 example 3: radar, level, deed, trumpet, xerox are words by randomizer.
 example 4: [apple] and [pie], [hubbly-wobbly bubble-tea]

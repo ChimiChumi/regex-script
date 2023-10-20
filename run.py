@@ -45,7 +45,12 @@ def main():
         "seven": "7",
         "eight": "8",
         "nine": "9",
-        "ten": "10"
+        "ten": "10",
+        "eleven": "11",
+        "twelve": "12",
+        "thirteen": "13",
+        "fourteen": "14",
+        "fifteen": "15"
     }
 
     # Simple match
@@ -64,9 +69,10 @@ def main():
 
     # Capturing group & Processing
     def replace_word_with_number(match):
-        return word_to_num[match.group(0).lower()]
+        word = match.group(0).lower()  # Convert the matched word to lowercase
+        return word_to_num.get(word, match.group(0))  # Use get() to handle unknown words
 
-    pattern = r"\b(one|two|three|four|five|six|seven|eight|nine|ten)\b"
+    pattern = r"\b(one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|thirteen|fourteen|fifteen)\b"
     replace_text = re.sub(pattern, replace_word_with_number, text, flags=re.IGNORECASE)
 
     # Backreference
